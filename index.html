@@ -1,0 +1,270 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>With All Our Love | Rodrigo & Emily</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #fff7f5;
+      color: #624747;
+      line-height: 1.8;
+    }
+
+    .portada {
+      min-height: 65vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #f8dfdf, #fff8f0);
+    }
+
+    .portada .detalle {
+      font-size: 13px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .portada h1 {
+      font-size: clamp(38px, 8vw, 68px);
+      color: #9e626a;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .portada h1 em {
+      font-weight: normal;
+    }
+
+    .portada p {
+      font-size: 18px;
+      max-width: 550px;
+    }
+
+    .corazon {
+      font-size: 32px;
+      margin-top: 25px;
+      color: #c17d86;
+    }
+
+    .section {
+      padding: 65px 20px;
+    }
+
+    .letter {
+      max-width: 900px;
+      margin: auto;
+      background: #ffffff;
+      padding: clamp(25px, 5vw, 55px);
+      border-radius: 18px;
+      box-shadow: 0 8px 30px rgba(120, 70, 70, 0.08);
+    }
+
+    .eyebrow {
+      text-align: center;
+      font-size: 12px;
+      letter-spacing: 3px;
+      color: #b47a80;
+      margin-bottom: 15px;
+    }
+
+    .letter h2 {
+      text-align: center;
+      color: #9e626a;
+      font-size: clamp(30px, 5vw, 42px);
+      margin-bottom: 30px;
+    }
+
+    .letter h2 em {
+      font-weight: normal;
+    }
+
+    /* WEDDING PHOTOS */
+
+    .fotos-boda {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 22px;
+      margin: 30px auto 40px;
+    }
+
+    .fotos-boda img {
+      display: block;
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      max-height: 440px;
+      object-fit: contain;
+      border-radius: 14px;
+      box-shadow: 0 5px 18px rgba(0, 0, 0, 0.13);
+      background: #fff7f5;
+    }
+
+    .letter-copy {
+      max-width: 680px;
+      margin: 0 auto;
+      font-size: 17px;
+    }
+
+    .letter-copy p {
+      margin-bottom: 22px;
+    }
+
+    .firma {
+      text-align: center;
+      color: #a46770;
+      font-style: italic;
+      font-size: 21px;
+      margin-top: 35px;
+    }
+
+    .final {
+      text-align: center;
+      padding: 45px 20px;
+      background: #f5dfdf;
+      color: #8e5c63;
+    }
+
+    .final p {
+      font-size: 16px;
+    }
+
+    .final .corazon {
+      margin-top: 10px;
+    }
+
+    /* MOBILE RESPONSIVE DESIGN */
+
+    @media (max-width: 600px) {
+      .portada {
+        min-height: 55vh;
+      }
+
+      .section {
+        padding: 35px 14px;
+      }
+
+      .fotos-boda {
+        gap: 20px;
+      }
+
+      .fotos-boda img {
+        max-width: 100%;
+        max-height: none;
+      }
+
+      .letter-copy {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="portada">
+    <p class="detalle">A Love Story</p>
+
+    <h1>Rodrigo <em>&amp; Emily</em></h1>
+
+    <p>
+      Celebrating love, cherished memories, and all the
+      beautiful moments that make your story unique.
+    </p>
+
+    <div class="corazon">♡</div>
+  </header>
+
+  <main>
+    <section class="section letter-section">
+      <article class="letter">
+
+        <p class="eyebrow">WITH ALL OUR LOVE</p>
+
+        <h2>For Rodrigo <em>&amp; Emily</em></h2>
+
+        <div class="fotos-boda">
+
+          <img
+            src="https://raw.githubusercontent.com/agustina-crea/aniversario-bodas/main/fotos/foto1.jpg"
+            alt="First photograph of Rodrigo and Emily"
+            loading="eager"
+          >
+
+          <img
+            src="https://raw.githubusercontent.com/agustina-crea/aniversario-bodas/main/fotos/foto2.jpg"
+            alt="Second photograph of Rodrigo and Emily"
+            loading="eager"
+          >
+
+        </div>
+
+        <div class="letter-copy">
+
+          <p>Dear Rodrigo and Emily,</p>
+
+          <p>
+            Some love stories become unforgettable because they
+            are filled with love, little details, and precious
+            moments that remain in our hearts forever.
+          </p>
+
+          <p>
+            Today, we celebrate your union and all the memories
+            you have created together. May you always have shared
+            smiles, comforting hugs, and the desire to keep
+            walking hand in hand through life.
+          </p>
+
+          <p>
+            May each new day give you another reason to choose
+            each other, support one another through life's
+            challenges, and enjoy the little things that make
+            life so beautiful.
+          </p>
+
+          <p>
+            We wish for your love story to keep growing with
+            tenderness, understanding, respect, and endless love.
+            May your most beautiful memories still be ahead of you.
+          </p>
+
+          <p class="firma">
+            With all our love ♡
+          </p>
+
+        </div>
+
+      </article>
+    </section>
+  </main>
+
+  <footer class="final">
+    <p>Here's to many more years of love and happiness.</p>
+    <div class="corazon">♥</div>
+    <p>Rodrigo &amp; Emily</p>
+  </footer>
+
+</body>
+</html>
+```
